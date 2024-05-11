@@ -1,10 +1,7 @@
-
-# How to run the api
-```
-uvicorn main:app --reload
-```
-# HOW TO RUN THE DATABASE
+# How to run
+SET THE ENVIRONMENT VARIABLES IN THE .env FILE
+AND RUN THE PROJECT:
 ```bash
-# RUN THE CONTAINER WITH POSTGREST AND PGADMIN4
+# RUN THE CONTAINER WITH POSTGREST AND PGADMIN4 and the API
 docker-compose up -d
 ```
